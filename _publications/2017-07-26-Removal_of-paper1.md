@@ -3,6 +3,7 @@ title: "Removal of back-reflection noise at ultrathin imaging probes by the sing
 collection: publications
 permalink: /publication/2017-07-26-Removal_of-paper1
 date: 2017-07-26
+excerpt: 'Removal of back-reflection noise'
 venue: 'Scientific Reports'
 paperurl: 'http://munkyuK.github.io/files/Removal_of_SR_20170726.pdf'
 citation: 'Changhyeong Yoon, Munkyu Kang, Jin H. Hong, Taeseok D. Yang, Jingchao Xing, Hongki Yoo, Youngwoon Choi and Wonshik Choi, &quot;Removal of back-reflection noise at ultrathin imaging probes by the single-core illumination and wide-field detection&quot;, <i>Scientific Reports</i>., 7, 6524 (2017).'

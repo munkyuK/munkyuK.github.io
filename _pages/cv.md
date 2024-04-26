@@ -35,7 +35,7 @@ Professional activities and experiences
 * Developing reflectance endomicroscope system for imaging biological tissues
 * Designing and conducting experiments for computational & hardware correction of sample-induced aberration
 
-Publications
+Publications (* : Co-first author)
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}

@@ -3,7 +3,7 @@ title: "Fourier holographic endoscopy for imaging continuously moving objects"
 collection: publications
 permalink: /publication/2023-03-23-Fourier_holographic-paper5
 date: 2023-03-23
-excerpt: 'Single shot 3D endoscopic imaging of macroscopic objects by spatial frequency multiplexing'
+excerpt: 'Removing motion effect of continuously moving objects in Fourier holographic endoscopy'
 venue: 'Optics Express'
 paperurl: 'http://munkyuK.github.io/files/Fourier_holographic_OE_20230323.pdf'
 citation: 'Munkyu Kang*, Wonjun Choi*, Youngwoon Choi and Wonshik Choi, &quot;Fourier holographic endoscopy for imaging continuously moving objects&quot;, <i>Optics Express</i>., 31, 11705 (2023).'

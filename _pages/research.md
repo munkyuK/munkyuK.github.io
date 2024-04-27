@@ -24,37 +24,35 @@ Reference :
 
 Fourier Holographic Endomicroscopy
 ======
-![setup_scheme](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/setup_scheme.png?raw=true)
+![bioimaging](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/bioimaging.png?raw=true)
 Endoscope is a minimally invasive imaging tool to see inside the human body. There are many types, but here we consider bundle fiber endoscope. Since fiber bundle delivers an image, there is no need to attach a scanner at the distal side. This makes the endoscope thin and robust. However, it is used as fluorescent endoscope because of reflection noise from the probe itself is too strong. Since fluorescence imaging can be limited in medical, here we designed new endoscope system for reflectance imaging.
 
-In conventional reflectance endoscope using bundle fiber, the fiber surface is at the image plane of the target, so the cores act like image pixels. The sample signal and back-reflection noise are captured by the same core, so the image contrast is degraded. Also, you can see the pixelized image because of the spacing between the cores. To resolve this fundamental issue, we placed the distal tip of the fiber at some distance away from the sample. In this case, the back-reflection noise only occurs at an illumination core while the target information is captured by other cores. So we could easily eliminate the back-reflection noise. However, the signals captured at the other cores are in the defocused plane such that they do not form an image by themselves. Furthermore, they experience core-dependent phase retardations depending on the bending and twist of the fiber. We measure holographic image placed some distance away from the fiber and developed novel lensless image reconstruction method that finds and eliminates core-dependent phase retardations in situ.
+In conventional reflectance endoscope using bundle fiber, the fiber surface is at the image plane of the target, so the cores act like image pixels. The sample signal and back-reflection noise are captured by the same core, so the image contrast is degraded. Also, you can see the pixelized image because of the spacing between the cores. To resolve this fundamental issue, we placed the distal tip of the fiber at some distance away from the sample. In this case, the back-reflection noise only occurs at an illumination core while the target information is captured by other cores. So we could easily eliminate the back-reflection noise. However, the signals captured at the other cores are in the defocused plane such that they do not form an image by themselves. Furthermore, they experience core-dependent phase retardations depending on the bending and twist of the fiber. We measure holographic image from the fiber and developed novel lensless image reconstruction method that finds and eliminates core-dependent phase retardations in situ.
 
 Reference :
 * Wonjun Choi*, Munkyu Kang*, Jin H. Hong, Ori Katz, Byunghak Lee, Guang Hoon Kim, Youngwoon Choi, Wonshik Choi, "Flexible-type ultrathin holographic endoscope for microscopic imaging of unstained biological tissues", Nature Communications., 13, 4469 (2022)
 * Munkyu Kang*, Wonjun Choi*, Youngwoon Choi and Wonshik Choi, "Fourier holographic endoscopy for imaging continuously moving objects", Optics Express., 31, 11705 (2023)
 
-
 Model-based Optimization
 ======
 ![Optimization](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/Optimization.png?raw=true)
+We can set up a light propagation model that has the same configuration as the experiment. This forward model will be compared with the experimentally recorded electric field and trained to maximize the similarity between them. The optimization algorithm is designed to find three layers in the model, which are object function, input and output aberration. Each starting with random initial values. We employ the Adaptive Moment Estimation (ADAM) optimizer to optimize the complex-valued parameters for minimization of the loss function. With the optimization using Pearson loss, we achieved high-resolution and large FOV of the lensless endoscopic images.
 
 Reference :
 * Thi Van Anh Nguyen*, Munkyu Kang*, Dinh Hoang Tran, Tran Thinh Le, Youngwoon Choi, and Wonshik Choi, "Object function retrieval by model-based optimization in Fourier holographic endoscopy", Optics Express., 31, 11705 (2023)
-We can First, we set up three layers, each starting with random initial values. We assumed the illuminating cores to be Gaussian beams and applied the first layer. Next, we performed free space propagation to apply the second layer and again propagated through free space to apply the final layer. In this case, instead of Fresnel propagation, we used angular spectrum propagation to find the exact solution. Then, We trained to minimize the difference between model output and the experimental data.
-
 
 Fourier Ptychography
 ======
 ![Ptychography](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/Ptychography.png?raw=true)
+In existing imaging systems, there exists a trade-off between the resolution of the captured images and the field of view (FOV). Thus, Fourier Ptychography (FP) has been studied to restore the phase information of objects and enhance spatial bandwidth product using bright-field and dark-field images obtained by illuminating objects from various angles with a low numerical aperture objective lens. FP, utilizing low numerical aperture objective lenses, achieves over two times improvement in optical resolution compared to conventional microscopes using the same objective lens, while maintaining a wide field of view and operating distance. Moreover, it is highly applicable in the field of biomedicine due to its ease of implementation from conventional microscopes. I conducted research on Ptychographic endomicroscopy, which has higher utility, by illuminating a single core through a thin bundle of optical fibers and measuring the reflected object information to restore the phase.
 
 Reference :
 * Gil Weinberg, Munkyu Kang, Wonjun Choi, Wonshik Choi, and Ori Katz, "Ptychographic lensless coherent endomicroscopy through a flexible fiber bundle", Optics Express., 31, 11705 (2024)
 
-
 Computer Generated Holography
 ======
 ![CGH](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/CGH.png?raw=true)
-
+Computer-generated holography (CGH) is a technique that generates holograms by computer algorithms. A generated hologram can be displayed by wavefront shaping devices or printed onto a film to get the holographic images. The Gerchberg-Saxton algorithm is a prominent algorithm used for generating holograms. It employs an iterative approach to create the desired phase distribution. I aim to apply a non-iterative point-cloud holography algorithm to a MEMS-based fast Spatial Light Modulator (SLM) for significantly improved speed in scanning points, with the goal of applying it to neuron imaging and optogenetics research.
 
 Reference :
 * Nathan Tessema Ersaro, Cem Yalcin, Liz Murray, Leyla Kabuli, Laura Waller, and Rikky Muller, "Fast non-iterative algorithm for 3D point-cloud holography", Optics Express 31, 36468 (2023)
@@ -62,6 +60,7 @@ Reference :
 Three-dimensional holographic imaging of macroscopic objects
 ======
 ![SFM](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/SFM.png?raw=true)
+Reconstructing real-world objects in three dimensions, such as in autonomous driving or virtual reality, is really interesting and highly practical. Can objects be reconstructed well even in foggy conditions? Is it possible to reconstruct objects behind walls? Many kind of research has been explored such as Non-Line-of-Sight (NLOS) imaging and holography to address these intriguing questions. We have utilized holographic measurement with low-coherence sources to reconstruct objects hidden behind scattering layers. Additionally, in narrow spaces like the oral cavity, we have achieved single-shot multiple depth imaging by multiplexing depth information in the spatial frequency domain, enabling rapid scanning and three-dimensional reconstruction of objects. These advancements open up new possibilities for applications in various fields, from enhancing vision in challenging environments to enabling innovative medical imaging techniques.
 
 Reference :
 * Sungsoo Woo, Munkyu Kang, Changhyeong Yoon, Taseok Daniel Yang, Youngwoon Choi and Wonshik Choi, "Three-dimensional imaging of macroscopic objects hidden behind scattering media using time-gated aperture synthesis", Optics Express., 25, 32722 (2017)

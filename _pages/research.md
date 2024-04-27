@@ -16,7 +16,7 @@ Optical microscopy has suitable conditions for biological imaging. It can resolv
 
 we can divide the problem into two main aspects. The first is the scattering problem. Imaging can be thought of as measuring the momentum change caused by the target object. Here, the light scattered only once by the sample is called a single scattered wave. Conversely, not only from the object but also from within the medium, we have light that has undergone momentum changes, known as multiple-scattered waves. These waves lose information about the object as they pass through the medium. As the object's depth increases or the scattering becomes more severe, the ballistic wave exponentially decreases, and when the noise level created by multiple scattering exceeds the sample signal, we can no longer distinguish the image.
 
-The other one is the aberration problem. Aberration is angle dependent phase retardation within the single scattering that does not undergo momentum changes. Commonly known as adaptive optics, this is a method to correct system aberrations and restore distorted images. We can do the adaptive optics with hardware such as Shack-Hartmann sensors, or we can computationally correct aberrations. Input and output aberrations can be decomposed from datasets obtained by illuminating the object at various angles, allowing us to restore distorted object images.
+The other one is the aberration problem. Aberration is angle dependent phase retardation within the single scattering that does not undergo momentum changes. Commonly known as adaptive optics, this is a method to correct system aberrations and restore distorted images. We can do the adaptive optics with hardware such as Shack-Hartmann sensors, or we can computationally correct aberrations. By illuminating the object at various angles we construct a single reflection matrix. We can manage the reflection matrix to accumulate only single scattering coherently and decompose input and output aberrations from obtained datasets, allowing us to restore distorted object images.
 
 Reference :
 * S. Kang, S. Jeong et al., "Imaging deep within a scattering medium using collective accumulation of single-scattered waves", Nature Photonics 9, 253-258 (2015)
@@ -25,6 +25,9 @@ Reference :
 Fourier Holographic Endomicroscopy
 ======
 ![setup_scheme](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/setup_scheme.png?raw=true)
+Endoscope is a minimally invasive imaging tool to see inside the human body. There are many types, but here we consider bundle fiber endoscope. Since fiber bundle delivers an image, there is no need to attach a scanner at the distal side. This makes the endoscope thin and robust. However, it is used as fluorescent endoscope because of reflection noise from the probe itself is too strong. Since fluorescence imaging can be limited in medical, here we designed new endoscope system for reflectance imaging.
+
+In conventional reflectance endoscope using bundle fiber, the fiber surface is at the image plane of the target, so the cores act like image pixels. The sample signal and back-reflection noise are captured by the same core, so the image contrast is degraded. Also, you can see the pixelized image because of the spacing between the cores. To resolve this fundamental issue, we placed the distal tip of the fiber at some distance away from the sample. In this case, the back-reflection noise only occurs at an illumination core while the target information is captured by other cores. So we could easily eliminate the back-reflection noise. However, the signals captured at the other cores are in the defocused plane such that they do not form an image by themselves. Furthermore, they experience core-dependent phase retardations depending on the bending and twist of the fiber. We measure holographic image placed some distance away from the fiber and developed novel lensless image reconstruction method that finds and eliminates core-dependent phase retardations in situ.
 
 Reference :
 * Wonjun Choi*, Munkyu Kang*, Jin H. Hong, Ori Katz, Byunghak Lee, Guang Hoon Kim, Youngwoon Choi, Wonshik Choi, "Flexible-type ultrathin holographic endoscope for microscopic imaging of unstained biological tissues", Nature Communications., 13, 4469 (2022)
@@ -37,6 +40,7 @@ Model-based Optimization
 
 Reference :
 * Thi Van Anh Nguyen*, Munkyu Kang*, Dinh Hoang Tran, Tran Thinh Le, Youngwoon Choi, and Wonshik Choi, "Object function retrieval by model-based optimization in Fourier holographic endoscopy", Optics Express., 31, 11705 (2023)
+We can First, we set up three layers, each starting with random initial values. We assumed the illuminating cores to be Gaussian beams and applied the first layer. Next, we performed free space propagation to apply the second layer and again propagated through free space to apply the final layer. In this case, instead of Fresnel propagation, we used angular spectrum propagation to find the exact solution. Then, We trained to minimize the difference between model output and the experimental data.
 
 
 Fourier Ptychography

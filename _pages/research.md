@@ -9,6 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
+Computer Generated Holography
+======
+![CGH](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/CGH.png?raw=true)
+Computer-generated holography (CGH) is a technique that generates holograms by computer algorithms. A generated hologram can be displayed by wavefront shaping devices or printed onto a film to get the holographic images. The Gerchberg-Saxton algorithm is a prominent algorithm used for generating holograms. It employs an iterative approach to create the desired phase distribution. I aim to apply a non-iterative point-cloud holography algorithm to a MEMS-based fast Spatial Light Modulator (SLM) for significantly improved speed in scanning points, with the goal of applying it to neuron imaging and optogenetics research.
+
+Reference :
+* Nathan Tessema Ersaro, Cem Yalcin, Liz Murray, Leyla Kabuli, Laura Waller, and Rikky Muller, "Fast non-iterative algorithm for 3D point-cloud holography", Optics Express 31, 36468 (2023)
+
 Imaging thorugh Scattering Medium
 ======
 ![CLASS](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/CLASS.png?raw=true)
@@ -48,14 +56,6 @@ In existing imaging systems, there exists a trade-off between the resolution of 
 
 Reference :
 * Gil Weinberg, Munkyu Kang, Wonjun Choi, Wonshik Choi, and Ori Katz, "Ptychographic lensless coherent endomicroscopy through a flexible fiber bundle", Optics Express., 31, 11705 (2024)
-
-Computer Generated Holography
-======
-![CGH](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/CGH.png?raw=true)
-Computer-generated holography (CGH) is a technique that generates holograms by computer algorithms. A generated hologram can be displayed by wavefront shaping devices or printed onto a film to get the holographic images. The Gerchberg-Saxton algorithm is a prominent algorithm used for generating holograms. It employs an iterative approach to create the desired phase distribution. I aim to apply a non-iterative point-cloud holography algorithm to a MEMS-based fast Spatial Light Modulator (SLM) for significantly improved speed in scanning points, with the goal of applying it to neuron imaging and optogenetics research.
-
-Reference :
-* Nathan Tessema Ersaro, Cem Yalcin, Liz Murray, Leyla Kabuli, Laura Waller, and Rikky Muller, "Fast non-iterative algorithm for 3D point-cloud holography", Optics Express 31, 36468 (2023)
 
 Three-dimensional holographic imaging of macroscopic objects
 ======

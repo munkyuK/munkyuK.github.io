@@ -26,18 +26,41 @@ Fourier Holographic Endomicroscopy
 ======
 ![setup_scheme](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/setup_scheme.png?raw=true)
 
+Reference :
+* Wonjun Choi*, Munkyu Kang*, Jin H. Hong, Ori Katz, Byunghak Lee, Guang Hoon Kim, Youngwoon Choi, Wonshik Choi, "Flexible-type ultrathin holographic endoscope for microscopic imaging of unstained biological tissues", Nature Communications., 13, 4469 (2022)
+* Munkyu Kang*, Wonjun Choi*, Youngwoon Choi and Wonshik Choi, "Fourier holographic endoscopy for imaging continuously moving objects", Optics Express., 31, 11705 (2023)
+
 
 Model-based Optimization
 ======
 ![Optimization](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/Optimization.png?raw=true)
+
+Reference :
+* Thi Van Anh Nguyen*, Munkyu Kang*, Dinh Hoang Tran, Tran Thinh Le, Youngwoon Choi, and Wonshik Choi, "Object function retrieval by model-based optimization in Fourier holographic endoscopy", Optics Express., 31, 11705 (2023)
 
 
 Fourier Ptychography
 ======
 ![Ptychography](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/Ptychography.png?raw=true)
 
+Reference :
+* Gil Weinberg, Munkyu Kang, Wonjun Choi, Wonshik Choi, and Ori Katz, "Ptychographic lensless coherent endomicroscopy through a flexible fiber bundle", Optics Express., 31, 11705 (2024)
+
 
 Computer Generated Holography
 ======
 ![CGH](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/CGH.png?raw=true)
+
+
+Reference :
+* Nathan Tessema Ersaro, Cem Yalcin, Liz Murray, Leyla Kabuli, Laura Waller, and Rikky Muller, "Fast non-iterative algorithm for 3D point-cloud holography", Optics Express 31, 36468 (2023)
+
+Three-dimensional holographic imaging of macroscopic objects
+======
+![SFM](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/SFM.png?raw=true)
+
+Reference :
+* Sungsoo Woo, Munkyu Kang, Changhyeong Yoon, Taseok Daniel Yang, Youngwoon Choi and Wonshik Choi, "Three-dimensional imaging of macroscopic objects hidden behind scattering media using time-gated aperture synthesis", Optics Express., 25, 32722 (2017)
+* Munkyu Kang*, Sungsoo Woo*, Wonjun Choi*, Pilsung Kang. Tran D. Hoang, Jungsik Koo, Youngwoon Choi and Wonshik Choi, "Single-shot multiple-depth macroscopic imaging by spatial frequency multiplexing", Optics Express., 29, 34360 (2021)
+
 

@@ -2,7 +2,7 @@
 title: "Object function retrieval by model-based optimization in Fourier holographic endoscopy"
 collection: publications
 permalink: /publication/2024-01-08-Object_function-paper6
-date: 2023-03-23
+date: 2024-01-08
 excerpt: 'Model-based optimization algorighm that retrieves an object function in a fiber bundle holographic endoscope'
 venue: 'ACS Photonics'
 paperurl: 'http://munkyuK.github.io/files/Object_function_ACS_20240108.pdf'

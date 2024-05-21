@@ -6,7 +6,7 @@ date: 2023-03-23
 excerpt: 'Model-based optimization algorighm that retrieves an object function in a fiber bundle holographic endoscope'
 venue: 'ACS Photonics'
 paperurl: 'http://munkyuK.github.io/files/Object_function_ACS_20240108.pdf'
-citation: 'Thi Van Anh Nguyen*, Munkyu Kang*, Dinh Hoang Tran, Tran Thinh Le, Youngwoon Choi, and Wonshik Choi, &quot;Object function retrieval by model-based optimization in Fourier holographic endoscopy&quot;, <i>Optics Express</i>., 31, 11705 (2023).'
+citation: 'Thi Van Anh Nguyen*, Munkyu Kang*, Dinh Hoang Tran, Tran Thinh Le, Youngwoon Choi, and Wonshik Choi, &quot;Object function retrieval by model-based optimization in Fourier holographic endoscopy&quot;, <i>ACS Photonics</i>., 11, 385 (2024).'
 ---
 
 ![Optimization](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/Optimization.png?raw=true)

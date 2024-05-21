@@ -1,12 +1,12 @@
 ---
 title: "Ptychographic lensless coherent endomicroscopy through a flexible fiber bundle"
 collection: publications
-permalink: /publication/2024-04-26-Ptychographic_lensless-paper7
-date: 2024-04-26
+permalink: /publication/2024-05-20-Ptychographic_lensless-paper7
+date: 2024-05-20
 excerpt: 'Coherent lensless imaging based on Fourier Ptychography using multi-core fiber'
 venue: 'Optics Express'
-paperurl: 'http://munkyuK.github.io/files/Ptychographic_lensless_OE_20240426.pdf'
-citation: 'Gil Weinberg, Munkyu Kang, Wonjun Choi, Wonshik Choi, and Ori Katz, &quot;Ptychographic lensless coherent endomicroscopy through a flexible fiber bundle&quot;, <i>Optics Express</i>., 31, 11705 (2024).'
+paperurl: 'http://munkyuK.github.io/files/Ptychographic_lensless_OE_20240520.pdf'
+citation: 'Gil Weinberg, Munkyu Kang, Wonjun Choi, Wonshik Choi, and Ori Katz, &quot;Ptychographic lensless coherent endomicroscopy through a flexible fiber bundle&quot;, <i>Optics Express</i>., 32, 20421 (2024).'
 ---
 
 ![Ptychography](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/Ptychography.png?raw=true)

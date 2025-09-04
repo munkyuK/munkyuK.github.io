@@ -4,9 +4,9 @@ collection: publications
 permalink: /publication/2025-08-22-A_Low-Voltage-paper8
 date: 2025-08-22
 excerpt: 'High-speed MEMs-based Piston-motion Spatial Light Modulator '
-venue: 'IEEE'
+venue: '2025 International Conference on Optical MEMS and Nanophotonics (OMN)'
 paperurl: 'http://munkyuK.github.io/files/A_Low-Voltage_IEEE_20250822.pdf'
-citation: 'Elizabeth Murray, Nathan Tessema Ersaro, Cem Yalcin, Munkyu Kang, Leyla Kabuli, Laura Waller, and Rikky Muller &quot;A Low-Voltage Drive, Piston-motion Micromirror Array with 94% Fill Factor&quot;, <i>2025 International Conference on Optical MEMS and Nanophotonics (OMN), pp. 1-2.</i>., (2025).'
+citation: 'Elizabeth Murray, Nathan Tessema Ersaro, Cem Yalcin, Munkyu Kang, Leyla Kabuli, Laura Waller, and Rikky Muller &quot;A Low-Voltage Drive, Piston-motion Micromirror Array with 94% Fill Factor&quot;, <i>2025 International Conference on Optical MEMS and Nanophotonics (OMN), pp. 1-2</i>., (2025).'
 ---
 
 ![MEMS_SLM](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/MEMS_SLM.png?raw=true)

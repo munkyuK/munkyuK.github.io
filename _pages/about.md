@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
+![MLA](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/MLA.png?raw=true)
 I am a postdoctoral researcher at UC Berkeley jointly working with [Rikky Muller](https://www.rikkymuller.com) and [Laura Waller](https://www.laurawaller.com). I am interested in optical microscopes and imaging systems, holographic imaging, bioimaging, design of optical imaging setups and developing computational imaging algorithm. I work on setting up computer generated holography (CGH) system and optimizing algorithm with brand new MEMS-based fast spatial light modulator (SLM).
 
 ![setup_scheme](https://github.com/munkyuK/munkyuK.github.io/blob/master/images/setup_scheme.png?raw=true)
